@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33ccff" >
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/query_name2"
+            android:textColor="#0000ff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/edit2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit2"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/person1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00ffff" />
+
+    <TextView
+        android:id="@+id/queryname"
+        android:layout_width="293dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical|left"
+        android:textSize="18sp" />
+ <TextView
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+    <TextView
+        android:id="@+id/queryemail"
+        android:layout_width="293dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical|left"
+        android:textSize="18sp" />
+<TextView
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+    <TextView
+        android:id="@+id/toastnum2_1"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical|left"
+        android:text="@string/toastnum2_1"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/querynum1"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical|left"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/send_msg2_1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/querynum1"
+            android:background="@drawable/send_msg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/call2_1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/send_msg2_1"
+            android:background="@drawable/call2"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/toastnum2_2"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical|left"
+        android:text="@string/toastnum2_2"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/querynum2"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|left"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/send_msg2_2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/querynum2"
+            android:background="@drawable/send_msg"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/call2_2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/send_msg2_2"
+            android:background="@drawable/call2"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/deleteperson"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:background="#ff6633"
+            android:drawableRight="@drawable/bin"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/delete_person2"
+            android:textSize="20sp" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

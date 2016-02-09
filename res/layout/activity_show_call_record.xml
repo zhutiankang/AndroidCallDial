@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_record_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+  
+
+        <LinearLayout
+            android:id="@+id/show_call_out2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/call_cancle1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:background="#ff6600"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/cancle1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/call_ok1"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:background="#66ffcc"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/ok1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show_call_out1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/call_goback"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/call_goback" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/call_delete"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/call_delete" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/call_choose_all"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/call_choose_all" />
+            </LinearLayout>
+        </LinearLayout>
+  
+
+    <ListView
+        android:id="@+id/show_call_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/show_call_out2"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="#ffffff"
+        android:fadingEdge="none"
+        android:scrollingCache="false"
+        android:visibility="visible" />
+
+</RelativeLayout>

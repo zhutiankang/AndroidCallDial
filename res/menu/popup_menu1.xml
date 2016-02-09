@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/callrecordmenu"
+        android:title="所有通话记录"/>
+    <item
+        android:id="@+id/callmissmenu"
+        android:title="未接电话"/>
+    <item
+        android:id="@+id/exitmenu1"
+        android:title="隐藏对话框"/>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/deletepersonmenu2"
+        android:title="删除联系人"/>
+    <item
+        android:id="@+id/deleteallpersonmenu2"
+        android:title="清空所有联系人"/>
+    <item
+        android:id="@+id/exitmenu2"
+        android:title="隐藏对话框"/>
+
+</menu>

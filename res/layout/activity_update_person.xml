@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/cancle_update2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/cancle1" />
+
+        <Button
+            android:id="@+id/update_ok2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/ok1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/update_person2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/add_person1" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/update_person2"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/update_name2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/add_name1"
+                android:paddingLeft="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/add_adreess1"
+                android:paddingLeft="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#99ffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/toast_num1"
+        android:textColor="#0033cc"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="30dp"
+        android:text="@string/toastnum2_1"
+        android:textColor="#ff3366"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/update_num2_1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_border"
+        android:hint="@string/update_num2_1"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="30dp"
+        android:text="@string/toastnum2_2"
+        android:textColor="#ff3366"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/update_num2_2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_border"
+        android:hint="@string/update_num2_2"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#99ffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/toast_email1"
+        android:textColor="#0033cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/update_email2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_border"
+        android:hint="@string/hint_email1"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#99ffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/toast_group1"
+        android:textColor="#0033cc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/update_group2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_border"
+        android:drawableRight="@drawable/down"
+        android:hint="@string/hint_group1"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp" />
+
+</LinearLayout>

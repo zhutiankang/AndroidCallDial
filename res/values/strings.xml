@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TabHostTest!</string>
+    <string name="app_name">MyCall0</string>
+    <string name="action_settings">MyCall0</string>
+    <string name="add_person">添加联系人</string>
+    <string name="save_person">保存至已有</string>
+    <string name="send_msg">发送消息</string>
+    <string name="bigger1">展开键盘</string>
+    <string name="intercept1">拦截电话</string>
+    <string name="three1">更多</string>
+    <string name="input1">请输入号码</string>
+    <string name="email">请输入邮箱</string>
+    <string name="call1">呼叫</string>
+    <string name="smaller1">收起键盘</string>
+    <string name="cancle1">取消</string>
+    <string name="qingkong1">清空</string>
+    <string name="add_name1">请输入姓名</string>
+    <string name="add_num1">请输入电话</string>
+    <string name="ok1">确定</string>
+    <string name="toast_num1">联系人电话</string>
+    <string name="toast_email1">联系人邮箱</string>
+    <string name="toast_group1">联系人分组</string>
+    <string name="update_num2_1">请输入手机号</string>
+    <string name="update_num2_2">请输入住宅号</string>
+    <string name="hint_email1">请输入邮箱</string>
+    <string name="hint_group1">请选择分组</string>
+    <string name="add_adreess1">地址</string>
+    <string name="hint_search2">请输入搜索关键字</string>
+    <string name="add_person2">添加联系人</string>
+    <string name="delete_person2">删除联系人</string>
+    <string name="warnning_qingkong2">您确定要清空所有联系人？</string>
+    <string name="query_name2">联系人详情</string>
+    <string name="toastnum2_1">手机</string>
+    <string name="toastnum2_2">住宅</string>
+    <string name="group2">分组</string>
+    <string name="title_activity_my_tab1">title_activity_my_tab1</string>
+    <string name="title_activity_my_tab2">title_activity_my_tab2</string>
+    <string name="title_activity_my_tab3">title_activity_my_tab3</string>
+    <string name="msg_main_new">新短信</string>
+    <string name="gpslocate">定位</string>
+    <string name="gpsfollow">跟随</string>
+    <string name="gpsrotate">旋转</string>
+    <string name="title_activity_my_tab4">特殊功能</string>
+    <string name="title_activity_add_person">添加联系人</string>
+    <string name="check_weather">查询天气</string>
+    <string name="check_location">定位当前位置</string>
+    <string name="title_activity_query_person">联系人详情</string>
+    <string name="title_activity_update_person">编辑联系人</string>
+    <string name="title_activity_show_call_record">所有通话记录</string>
+    <string name="call_goback">返回</string>
+    <string name="call_choose_all">全选</string>
+    <string name="call_delete">删除</string>
+    <string name="title_activity_show_miss_call">未接电话</string>
+    <string name="title_activity_show_msg">我的短信</string>
+    <string name="title_activity_call_record">通话记录</string>
+    <string name="activity_show_incomming">已接来电</string>
+    <string name="title_activity_show_outgoing">已拨电话</string>
+    <string name="title_activity_new_msg">新短信</string>
+    <string name="receive_person_hint">请输入接受者</string>
+    <string name="new_msg_send">发送</string>
+    <string name="title_activity_my_weather">天气查询</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+
+</resources>

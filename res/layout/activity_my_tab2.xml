@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.example.mycall0.tab2.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/search_bar_edit_selector"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="@string/hint_search2"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/mytab2out"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/filter_edit" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/country_lvcountry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:divider="@null" />
+
+            <TextView
+                android:id="@+id/dialog"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_below="@id/country_lvcountry"
+                android:layout_gravity="center"
+                android:background="@drawable/show_head_toast_bg"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="30.0dip"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ffffff" >
+
+                <LinearLayout
+                    android:id="@+id/myTab2BottomOut1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#ffffff"
+                    android:weightSum="3" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/add_person2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/add_person"
+                            android:clickable="true"
+                            android:onClick="onClick" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/add_person2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/group2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/group2"
+                            android:clickable="true"
+                            android:onClick="onClick" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/group2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/three2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/three1"
+                            android:onClick="onPopupButtonClick" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/three1" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/myTab2BottomOut2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="invisible"
+                    android:weightSum="2" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/cancledelete2"
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:background="#ff6600"
+                            android:clickable="false"
+                            android:onClick="onClick"
+                            android:text="@string/cancle1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/okdelete2"
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:background="#66ffcc"
+                            android:clickable="false"
+                            android:onClick="onClick"
+                            android:text="@string/ok1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.example.mycall0.tab2.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="500dp"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+</RelativeLayout>

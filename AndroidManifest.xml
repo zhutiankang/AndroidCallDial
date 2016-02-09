@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycall0"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- 发送消息 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 阅读消息 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- 写入消息 -->
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- 接收消息 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    
+    <uses-permission android:name="android.permission.CALL_PHONE"/>  
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mycall"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="0b78289fb681993870df125131781a69" />
+
+        <activity
+            android:name="com.example.mycall0.TabMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mycall0.MyTab1Activity"
+            android:label="@string/title_activity_my_tab1" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.MyTab2Activity"
+            android:label="@string/title_activity_my_tab2"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.MyTab3Activity"
+            android:label="@string/title_activity_my_tab3" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.MyTab4Activity"
+            android:label="@string/title_activity_my_tab4" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.AddPersonActivity"
+            android:label="@string/title_activity_add_person" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab2.QueryPersonActivity"
+            android:label="@string/title_activity_query_person" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab2.UpdatePersonActivity"
+            android:label="@string/title_activity_update_person" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.ShowCallRecordActivity"
+            android:label="@string/title_activity_show_call_record" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.ShowMissCallActivity"
+            android:label="@string/title_activity_show_miss_call" >
+        </activity>
+        <activity android:name="com.example.mycall0.tab3.MessageBoxList" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.CallRecordActivity"
+            android:label="@string/title_activity_call_record" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.ShowIncommingActivity"
+            android:label="@string/activity_show_incomming" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab1.ShowOutgoingActivity"
+            android:label="@string/title_activity_show_outgoing" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab3.NewMsgActivity"
+            android:label="@string/title_activity_new_msg" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.tab4.MyWeatherActivity"
+            android:label="@string/title_activity_my_weather" >
+        </activity>
+        <activity
+            android:name="com.example.mycall0.MyLocationActivity"
+            android:label="@string/title_activity_my_location" >
+        </activity>
+        <activity android:name="com.example.mycall0.CallSafeActivity"></activity>
+        <service android:name="com.example.mycall0.service.CallSmsSafeService"></service>
+    </application>
+
+    
+    
+
+</manifest>
